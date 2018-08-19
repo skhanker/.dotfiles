@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+installDevelopmentDependencies () {
+    source ./.java.install
+    source ./.js.install
+    source ./.php.install
+    source ./.utilities.install
+}
+
+updateDevelopmentDependencies () {
+    source ./.brew.upgrade
+}

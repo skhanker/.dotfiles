@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Is there anything lingering
+brew cleanup
+
+# Tap third-party formulae
+brew tap homebrew/dupes
+brew tap homebrew/versions
+brew tap caskroom/versions
+
+# Update Repositories
+brew update
+
+# Upgrade Packages
+brew upgrade

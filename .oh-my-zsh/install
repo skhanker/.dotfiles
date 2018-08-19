@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mv ~/.zshrc ~/.zshrc.backup
+cp ~/.dotfiles/.oh-my-zsh/.zshrc ~/.zshrc
