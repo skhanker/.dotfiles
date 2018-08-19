@@ -4,8 +4,6 @@
 brew cleanup
 
 # Tap third-party formulae
-brew tap homebrew/dupes
-brew tap homebrew/versions
 brew tap caskroom/versions
 
 # Update Repositories
@@ -15,5 +13,7 @@ brew update
 brew install node
 brew install yarn
 brew install watchman
+
+brew link node
 
 yarn global add eslint@latest eslint-config-airbnb create-react-app create-react-native-app --prefix /usr/local

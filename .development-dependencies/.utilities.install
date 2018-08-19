@@ -4,8 +4,6 @@
 brew cleanup
 
 # Tap third-party formulae
-brew tap homebrew/dupes
-brew tap homebrew/versions
 brew tap caskroom/versions
 
 # Update Repositories
