@@ -11,18 +11,6 @@ brew tap caskroom/versions
 # Update Repositories
 brew update
 
-# I've put these individually so that you can comment out based on your development needs
-# Javascript #
-brew install node
-brew install yarn
-brew install watchman
-
-yarn global add eslint@latest eslint-config-airbnb create-react-app create-react-native-app --prefix /usr/local
-
-# Java #
-brew cask install java8
-brew install maven
-
 # AWS Shell
 brew install awscli
 brew install aws-shell
