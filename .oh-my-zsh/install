@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/zsh
+# this script needs to be run by zsh
 
 mv ~/.zshrc ~/.zshrc.backup
 cp ~/.dotfiles/.oh-my-zsh/.zshrc ~/.zshrc
