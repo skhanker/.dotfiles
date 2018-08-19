@@ -100,3 +100,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.dotfiles/.path
 source ~/.dotfiles/.motd
 source ~/.dotfiles/.oh-my-zsh/.zsh.functions
+
