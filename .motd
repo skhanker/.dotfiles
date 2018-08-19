@@ -4,4 +4,6 @@
 echo "\n# ------------------------------ Welcome Back, `whoami` --------------------------\n#"
 echo "# Your Local IP Addresses\n#"
 ifconfig | grep "inet " | awk '{ print "# "$2 }'
-echo "#\n# ------------------------------------------------------------------------------------------------------------\n "
+echo "#\n"
+echo "# run updateDevelopmentDependencies to update homebrew installs :)\n"
+echo "# ------------------------------------------------------------------------------\n "
